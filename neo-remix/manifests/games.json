@@ -33,7 +33,22 @@
           "neo_path": "games/boing/images/ball.png",
           "width": 24,
           "height": 24,
-          "neo_status": "generated_v1"
+          "neo_status": "ai_ready",
+          "ai_meta": {
+            "provider": "local",
+            "prompt": "Neo Remix game sprite, late-80s arcade pixel art with synthwave neon finish, flat shading max 3 tones, 1px neon rim glow, transparent background, crisp readable silhouette, no text, no watermark, no blur Game: neon arcade pong paddle and ball arena. Asset: ball \u2014 round game object with neon rim. Accent color neon cyan (#00F5FF). Preserve exact pose and silhouette from reference image. Output single centered sprite on transparent background. Style accents: extra punchy highlight, matte fill with neon edge.",
+            "seed": 19265814,
+            "variations": 4,
+            "picked_variant": 1,
+            "scores": {
+              "total": 0.7994,
+              "silhouette": 0.7447,
+              "palette": 0.7143,
+              "sharpness": 1.0,
+              "dimension": 1.0
+            },
+            "generated_at": "2026-06-25T22:43:47.869301+00:00"
+          }
         },
         {
           "id": "bat00",
@@ -7661,5 +7676,5 @@
       ]
     }
   },
-  "asset_pass": "neo_generated_v1"
+  "asset_pass": "ai_generated"
 }

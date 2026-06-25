@@ -4,3 +4,6 @@ __pycache__/
 .Python
 .venv/
 venv/
+.env
+variations/
+manifests/ai_generation_log.jsonl

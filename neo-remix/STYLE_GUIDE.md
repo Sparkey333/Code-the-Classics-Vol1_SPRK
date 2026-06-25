@@ -96,8 +96,11 @@ Run from repo root:
 
 ```bash
 python3 neo-remix/scripts/build_manifest.py
-python3 neo-remix/scripts/generate_neo_assets.py --all
+python3 neo-remix/scripts/generate_neo_assets.py
 python3 neo-remix/scripts/validate_assets.py
+
+# AI sprite pass (after linking keys in neo-remix/.env)
+python3 neo-remix/scripts/generate_ai_sprites.py --game boing --limit 10
 ```
 
 ## Quality Checklist (per asset)
