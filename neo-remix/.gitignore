@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.venv/
+venv/
+.env
+variations/
+manifests/ai_generation_log.jsonl

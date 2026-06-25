@@ -1,0 +1,236 @@
+{
+  "id": "boing",
+  "original_title": "Boing!",
+  "neo_title": "Neo Boing",
+  "accent_color": "#00F5FF",
+  "source_dir": "boing-master",
+  "entry_point": "games/boing/boing.py",
+  "resolution": {
+    "width": 800,
+    "height": 480
+  },
+  "counts": {
+    "images": 49,
+    "sounds": 19,
+    "music": 1
+  },
+  "sounds": [
+    {
+      "id": "bounce0",
+      "source": "boing-master/sounds/bounce0.ogg",
+      "neo_path": "games/boing/sounds/bounce0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "bounce1",
+      "source": "boing-master/sounds/bounce1.ogg",
+      "neo_path": "games/boing/sounds/bounce1.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "bounce2",
+      "source": "boing-master/sounds/bounce2.ogg",
+      "neo_path": "games/boing/sounds/bounce2.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "bounce3",
+      "source": "boing-master/sounds/bounce3.ogg",
+      "neo_path": "games/boing/sounds/bounce3.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "bounce4",
+      "source": "boing-master/sounds/bounce4.ogg",
+      "neo_path": "games/boing/sounds/bounce4.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "bounce_synth0",
+      "source": "boing-master/sounds/bounce_synth0.ogg",
+      "neo_path": "games/boing/sounds/bounce_synth0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "down",
+      "source": "boing-master/sounds/down.ogg",
+      "neo_path": "games/boing/sounds/down.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit0",
+      "source": "boing-master/sounds/hit0.ogg",
+      "neo_path": "games/boing/sounds/hit0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit1",
+      "source": "boing-master/sounds/hit1.ogg",
+      "neo_path": "games/boing/sounds/hit1.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit2",
+      "source": "boing-master/sounds/hit2.ogg",
+      "neo_path": "games/boing/sounds/hit2.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit3",
+      "source": "boing-master/sounds/hit3.ogg",
+      "neo_path": "games/boing/sounds/hit3.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit4",
+      "source": "boing-master/sounds/hit4.ogg",
+      "neo_path": "games/boing/sounds/hit4.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit_fast0",
+      "source": "boing-master/sounds/hit_fast0.ogg",
+      "neo_path": "games/boing/sounds/hit_fast0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit_medium0",
+      "source": "boing-master/sounds/hit_medium0.ogg",
+      "neo_path": "games/boing/sounds/hit_medium0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit_slow0",
+      "source": "boing-master/sounds/hit_slow0.ogg",
+      "neo_path": "games/boing/sounds/hit_slow0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit_synth0",
+      "source": "boing-master/sounds/hit_synth0.ogg",
+      "neo_path": "games/boing/sounds/hit_synth0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "hit_veryfast0",
+      "source": "boing-master/sounds/hit_veryfast0.ogg",
+      "neo_path": "games/boing/sounds/hit_veryfast0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "score_goal0",
+      "source": "boing-master/sounds/score_goal0.ogg",
+      "neo_path": "games/boing/sounds/score_goal0.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    },
+    {
+      "id": "up",
+      "source": "boing-master/sounds/up.ogg",
+      "neo_path": "games/boing/sounds/up.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    }
+  ],
+  "music": [
+    {
+      "id": "theme",
+      "source": "boing-master/music/theme.ogg",
+      "neo_path": "games/boing/music/theme.ogg",
+      "format": "ogg",
+      "neo_status": "pending"
+    }
+  ],
+  "image_ids": [
+    "ball",
+    "bat00",
+    "bat01",
+    "bat02",
+    "bat10",
+    "bat11",
+    "bat12",
+    "blank",
+    "digit00",
+    "digit01",
+    "digit02",
+    "digit03",
+    "digit04",
+    "digit05",
+    "digit06",
+    "digit07",
+    "digit08",
+    "digit09",
+    "digit10",
+    "digit11",
+    "digit12",
+    "digit13",
+    "digit14",
+    "digit15",
+    "digit16",
+    "digit17",
+    "digit18",
+    "digit19",
+    "digit20",
+    "digit21",
+    "digit22",
+    "digit23",
+    "digit24",
+    "digit25",
+    "digit26",
+    "digit27",
+    "digit28",
+    "digit29",
+    "effect0",
+    "effect1",
+    "impact0",
+    "impact1",
+    "impact2",
+    "impact3",
+    "impact4",
+    "menu0",
+    "menu1",
+    "over",
+    "table"
+  ],
+  "sound_ids": [
+    "bounce0",
+    "bounce1",
+    "bounce2",
+    "bounce3",
+    "bounce4",
+    "bounce_synth0",
+    "down",
+    "hit0",
+    "hit1",
+    "hit2",
+    "hit3",
+    "hit4",
+    "hit_fast0",
+    "hit_medium0",
+    "hit_slow0",
+    "hit_synth0",
+    "hit_veryfast0",
+    "score_goal0",
+    "up"
+  ],
+  "music_ids": [
+    "theme"
+  ]
+}
