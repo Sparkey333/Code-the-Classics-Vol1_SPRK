@@ -1,1 +1,4 @@
 .venv/
+.pydeps/
+*.xwd
+/tmp/studio-*.log

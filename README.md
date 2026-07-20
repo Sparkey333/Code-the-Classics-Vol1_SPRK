@@ -40,6 +40,17 @@ cd Code-the-Classics-Vol2/avenger
 pgzrun avenger.py
 ```
 
+## Classics Studio (play in the browser)
+
+Boot a local studio dashboard with a live game canvas (TigerVNC + noVNC):
+
+```bash
+python3 -m pip install --user -r studio/requirements.txt
+./studio/start.sh
+```
+
+Then open **http://localhost:8787** — pick a Vol I or Vol II game from the library and play it on the canvas.
+
 ### Book / ebook (PDF)
 
 The Volume II **ebook PDF is not a public free download**. Raspberry Pi Press offers it as a free ebook for magazine contributors / print subscribers:
