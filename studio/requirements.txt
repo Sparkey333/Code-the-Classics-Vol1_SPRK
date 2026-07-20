@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+aiofiles>=23.2
+pgzero>=1.2.1
+pygame>=2.5.0

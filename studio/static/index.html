@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Classics Studio — Code the Classics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="brand">Classics Studio</p>
+        <p class="tagline">Play Code the Classics through a live canvas</p>
+      </div>
+      <div class="status-chip" id="statusChip" data-state="idle">
+        <span class="dot"></span>
+        <span id="statusText">Booting display…</span>
+      </div>
+    </header>
+
+    <main class="studio">
+      <aside class="library" aria-label="Game library">
+        <div class="library-head">
+          <h2>Library</h2>
+          <div class="volume-tabs" role="tablist">
+            <button class="vol-tab is-active" data-volume="all" type="button">All</button>
+            <button class="vol-tab" data-volume="2" type="button">Vol II</button>
+            <button class="vol-tab" data-volume="1" type="button">Vol I</button>
+          </div>
+        </div>
+        <ul class="game-list" id="gameList"></ul>
+      </aside>
+
+      <section class="stage" aria-label="Play canvas">
+        <div class="stage-frame">
+          <div class="stage-chrome">
+            <div class="stage-meta">
+              <p class="now-playing-label">Now playing</p>
+              <h1 id="nowTitle">Select a game</h1>
+              <p id="nowBlurb">Pick anything from the library to load it on the canvas.</p>
+            </div>
+            <div class="stage-actions">
+              <button id="stopBtn" class="ghost-btn" type="button" disabled>Stop</button>
+              <button id="focusBtn" class="solid-btn" type="button">Focus canvas</button>
+            </div>
+          </div>
+
+          <div class="canvas-shell" id="canvasShell">
+            <div class="canvas-idle" id="canvasIdle">
+              <p class="idle-brand">Classics Studio</p>
+              <p class="idle-copy">Live Pygame Zero session streams here.</p>
+            </div>
+            <div id="vncContainer" class="vnc-container" tabindex="0"></div>
+            <div class="scanlines" aria-hidden="true"></div>
+          </div>
+
+          <p class="controls-line" id="controlsLine">Controls appear once a game is running.</p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/static/app.js"></script>
+  </body>
+</html>
