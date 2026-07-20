@@ -2,3 +2,4 @@
 .pydeps/
 *.xwd
 /tmp/studio-*.log
+__pycache__/
